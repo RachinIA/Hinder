@@ -1,0 +1,128 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+    <ImageView
+        android:id="@+id/image"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/flat"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/advaddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/advcosttext"
+                android:text="Цена в месяц :"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"  />
+        <TextView
+            android:id="@+id/advcost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/advroomstext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Комнат:"/>
+                <TextView
+                    android:id="@+id/advrooms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"  />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/advareatext"
+                    android:text="Площадь в кв.м."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"  />
+            <TextView
+                android:id="@+id/advarea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"  />
+            </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/advfloortext"
+                        android:text="Этаж:"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"  />
+            <TextView
+                android:id="@+id/advfloor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"  />
+                </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/advnametext"
+                android:text="Имя автора:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"  />
+        <TextView
+            android:id="@+id/advname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/advphonetext"
+                android:text="Телефон автора: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"  />
+        <TextView
+            android:id="@+id/advphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/advmailtext"
+                android:text="Почта автора: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"  />
+        <TextView
+            android:id="@+id/advmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

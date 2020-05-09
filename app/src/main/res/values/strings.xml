@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Hinder</string>
+    <string name="title_search">Поиск</string>
+    <string name="title_map">Карта</string>
+    <string name="title_post">Новый пост</string>
+    <string name="title_wishlist">Избранное</string>
+    <string name="title_profile">Профиль</string>
+    <string name="long_text">A\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nE</string>
+    <string name="title_activity_maps">Карта</string>
+    <string name="alladv_button">Все объявления</string>
+    <string name="title_activity_login">Hinder</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

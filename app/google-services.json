@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1091910174957",
+    "firebase_url": "https://hinder-276114.firebaseio.com",
+    "project_id": "hinder-276114",
+    "storage_bucket": "hinder-276114.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091910174957:android:fd8e594e8633a176ebe4e4",
+        "android_client_info": {
+          "package_name": "com.example.hinder0"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1091910174957-n3glj668v4ce35c8120geeb69g1mp9re.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hinder0",
+            "certificate_hash": "e5a68abcff2c513e28f5e00d39eee4ee0638be44"
+          }
+        },
+        {
+          "client_id": "1091910174957-brfjsubhqkl7lbemosm5o63ppqft4jee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuVa8gTdW2V1KKEQZndZRHdSOWBviSiuc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1091910174957-brfjsubhqkl7lbemosm5o63ppqft4jee.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
